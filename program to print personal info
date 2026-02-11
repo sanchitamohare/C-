@@ -1,0 +1,10 @@
+#include
+using namespace std;
+int main()
+{
+cout<<"Name:Sanchita Manohar Mohare\n";
+cout<<"ROLL NO.RBT25CB038\n";
+cout<<"DIV:I\n";
+cout<<"BRANCH:CSBS\n";
+return 0;
+}
