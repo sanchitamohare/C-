@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int Add(int a,int b);
+int main()
+{
+int a,b,result;
+cin>>a>>b;
+
+result = Add(a,b);
+cout<<result;
+return 0;
+}
+int Add(int a,int b)
+{
+int sum;
+sum = a+b;
+return sum;
+}
+
