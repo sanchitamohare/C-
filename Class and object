@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+class sum
+{
+public:
+int a,b;
+
+void setdata()
+{
+a=10;
+b=20;
+}
+
+void display()
+{
+int sum;
+sum = a+b;
+cout<<"Sum: "<<sum;
+}
+};
+
+
+int main()
+{
+sum sobj;
+sobj.setdata();
+sobj.display();
+cout<<"\na=" <<sobj.a;
+cout<<"\nb=" <<sobj.b;
+return 0;
+}
