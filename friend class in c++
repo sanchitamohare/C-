@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+class A
+{
+private:
+int x;
+protected:
+int y;
+
+public:
+
+A(){
+x=1678;
+y=2123;
+}
+
+friend class B;
+};
+
+class B
+{
+public:
+void display(A &abc){
+cout<<"\nx:"<<abc.x;
+cout<<"\ny:"<<abc.y;
+}
+};
+int main(){
+A obj1;
+B obj2;
+obj2.display(obj1);
+return 0;
+}
