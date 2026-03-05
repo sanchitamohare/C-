@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class parent
+{
+public:
+void print()
+{
+cout<<"I am parent";
+}
+};
+class child:public parent
+{
+public:
+void display()
+{
+cout
+<<"\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         I am child";
+}
+};
+int main()
+{
+child cobj;
+cobj.print();
+cobj.display();
+return 0;
+}
