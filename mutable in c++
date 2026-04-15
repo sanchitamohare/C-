@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class demo{
+public:
+int a;
+mutable int b;
+public:
+demo(int x=0, int y=0)
+{
+a=x;
+b=y;
+}
+void display()
+{
+cout<<a<<b;
+}
+};
+int main(){
+const demo dobj(30,20);
+cout<<dobj.a<<endl;
+cout<<dobj.b<<endl;
+dobj.b=345;
+cout<<dobj.a<<endl;
+cout<<dobj.b;
+return 0;
+}
